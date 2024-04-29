@@ -1,4 +1,5 @@
 import logo from "../assets/images/logo.png";
+import { FaHome } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
@@ -7,10 +8,12 @@ const Sidebar = () => {
         <img src={logo} alt="" />
       </div>
       <hr />
+      
       <ul className="mt-3 text-white font-bold">
         <li className="mb-2 rounded hover:shadow hover:bg-blue-500 py-2">
+
           <a href="/" className="px-3">
-            Home
+        Home
           </a>
         </li>
         <li className="mb-2 rounded hover:shadow hover:bg-blue-500 py-2">
