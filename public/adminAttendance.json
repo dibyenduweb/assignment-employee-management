@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "employeeType": "Full-time",
+    "workHours": 8,
+    "halfDay": false
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "employeeType": "Part-time",
+    "workHours": 6,
+    "halfDay": true
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "employeeType": "Contractor",
+    "workHours": 7,
+    "halfDay": false
+  },
+  {
+    "id": 4,
+    "name": "Bob Williams",
+    "employeeType": "Full-time",
+    "workHours": 9,
+    "halfDay": false
+  },
+  {
+    "id": 5,
+    "name": "Emily Brown",
+    "employeeType": "Part-time",
+    "workHours": 5,
+    "halfDay": false
+  },
+  {
+    "id": 6,
+    "name": "Michael Davis",
+    "employeeType": "Full-time",
+    "workHours": 8,
+    "halfDay": true
+  }
+]
