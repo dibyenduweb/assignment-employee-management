@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
+import logo from "../assets/images/logo.png"
 
 const Dashboard = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -18,19 +19,21 @@ const Dashboard = () => {
       {/* Top Navigation */}
       <nav className="bg-gray-900 text-white p-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center">
-          <span className="text-xl font-bold">Dashboard</span>
+        <div className="flex items-center w-44">
+          <img src={logo} alt="logo" />
+          {/* <span className="text-xl font-bold">Employee-management-system</span> */}
         </div>
 
         {/* User Account and Dark Mode Toggle */}
         <div className="flex items-center">
           {/* User Account Avatar */}
-          <div className="w-8 h-8 rounded-full bg-gray-700 mr-4">
-            {/* User avatar image or initials */}
+          <div className="w-8 h-8 rounded-full">
+            <img src="https://cdn3d.iconscout.com/3d/premium/thumb/boy-avatar-6299533-5187865.png?f=webp" alt="" />
           </div>
+          
           {/* Dark Mode Toggle */}
-          <button onClick={toggleDarkMode} className="focus:outline-none">
-            {darkMode ? "Light Mode" : "Dark Mode"}
+          <button >
+          Login
           </button>
         </div>
 
@@ -68,16 +71,28 @@ const Dashboard = () => {
             <h2 className="text-xl font-bold">Dashboard</h2>
             <ul className="mt-4">
               <li className="py-2 hover:bg-gray-700 cursor-pointer">
-                Dashboard Item 1
+                Add a Employee
               </li>
               <li className="py-2 hover:bg-gray-700 cursor-pointer">
-                Dashboard Item 2
+                Employees-List
               </li>
               <li className="py-2 hover:bg-gray-700 cursor-pointer">
-                Dashboard Item 3
+                Holidays
               </li>
               <li className="py-2 hover:bg-gray-700 cursor-pointer">
-                Dashboard Item 4
+                Leaves-Admin
+              </li>
+              <li className="py-2 hover:bg-gray-700 cursor-pointer">
+                Leaves-Employees
+              </li>
+              <li className="py-2 hover:bg-gray-700 cursor-pointer">
+                Leaves settings
+              </li>
+              <li className="py-2 hover:bg-gray-700 cursor-pointer">
+              Attendance-Admin
+                  </li>
+              <li className="py-2 hover:bg-gray-700 cursor-pointer">
+              Attendance-Employees
               </li>
             </ul>
           </div>
